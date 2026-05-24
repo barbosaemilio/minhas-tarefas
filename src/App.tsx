@@ -1,12 +1,12 @@
 import EstiloGlobal, { Container } from './styles'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import Home from './pages/Home'
 
 import store from './store'
 import Cadastro from './pages/Cadastro'
 
-const rotas = createBrowserRouter([
+const rotas = createHashRouter([
   {
     path: '/',
     element: <Home />
