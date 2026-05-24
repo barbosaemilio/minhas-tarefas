@@ -40,21 +40,13 @@ npm install
 npm start
 ```
 
-A aplicação estará disponível em `http://localhost:3000`.
+A aplicação estará disponível em `https://barbosaemilio.github.io/minhas-tarefas/`.
 
-## 📁 Estrutura do projeto
 
 ```
-src/
-├── components/
-│   ├── FiltroCards/       # Filtros por status e prioridade
-│   ├── ListaDeTarefas/    # Lista de tarefas
-│   └── Tarefa/            # Card individual de tarefa
-├── styles/                # Estilos globais e variáveis
-└── utils/
-    └── enums/             # Enumerações de status e prioridade
+
 ```
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT.
+projeto desenvolvido para fins pedagógicos.
